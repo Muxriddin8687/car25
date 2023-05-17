@@ -1,0 +1,22 @@
+.sticky-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.navbar {
+  background: transparent;
+  z-index: 99;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar {
+    background-color: var(--secondary-color);
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    margin: 5px;
+    padding: 0;
+  }
+}
